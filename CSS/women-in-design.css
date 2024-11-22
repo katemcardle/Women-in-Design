@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size:100%;
+    line-height: lem;
+}
+/*default style for entire page*/
+body {
+    color:#101010;
+    border-color: #101010;
+    background-color: #ffffff;
+}
+/*content container to centre content*/
+.container {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+}
+/*Adding google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+/*Default Headings styles*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times,
+    serif;
+    line-height: 1.1;
+    font-weight: 700;
+}
+/*Adding specific styles*/
+h1 {
+    font-size: 4.25rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    font-size: 1.75;
+    margin-bottom: 0.5rem;
+}
+
+/*paragraphs*/
+p {
+    font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+}
+/*Large paragraphs*/
+p.large {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+/*Lists*/
+ul {
+    list-style: disc outside;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+}
+ul li {
+    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+}
+/*Hyperlinks*/
+a {
+    font-family:inherit;
+    font-size:inherit;
+    line-height: inherit;
+    color: #006bc3;
+}
+a:hover {
+    color:#00447B;
+}
+a:visited {
+    color:#6935d2;
+}
+/*Images*/
+img {
+    max-width: 1020px;
+    width:100%;
+    height:auto;
+    border:1px solid #101010;
+    margin-bottom: 2rem;
+}
+/*Blockquotes*/
+figure.quote {
+    border-left: 8px solid #D8415C;
+    padding:1.5rem 0 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+figure.quote p{
+    margin-bottom:0;
+}
+figure.quote blockquote {
+    margin-bottom:.5rem;
+}
+figure.quote figcaption p{
+    font-weight:700;
+}
+/*footer*/
+footer {
+    padding:1.5rem 0 1.5rem 0;
+    margin-top:2rem;
+    border-top:1px solid #101010;
+}
+/*Main*/
+main{
+    margin-bottom: 2.5rem;
+}
+/*Header*/
+header{
+    border-bottom:2px solid #101010;
+    padding:1.5rem 0;
+}
+
+header p.logo{
+    font-weight: 700;
+    margin-bottom:0;
+    font-size:1.75;
+    line-height: 1.1;
+}
+/*Colour blocking*/
+.colour-block{
+    padding:3rem 0 3rem 0;
+    background-color:#CBD7DF;
+    margin-bottom:2.5rem;
+}
+/*Highlighting*/
+.highlight {
+    background-color: #D8415C;
+    padding:0 0.5rem
+}
