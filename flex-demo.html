@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            padding: 1rem;
+            background-color: #cccccc;
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+
+        p{
+            padding: 1rem;
+            margin: 0;
+            background-color: blueviolet;
+            color: #ffffff;
+            border: 1px solid #000000;
+        }
+        p.third{
+            flex-basis: 33.33%;
+        }
+        p.twoThirds{
+            flex-basis: 66.66%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <p class="third">Item One</p>
+        <p class="twoThirds">Item two</p>
+    </div>
+    
+</body>
+</html>

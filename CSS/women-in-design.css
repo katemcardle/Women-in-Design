@@ -145,3 +145,18 @@ header p.logo{
     background-color: #D8415C;
     padding:0 0.5rem
 }
+/*css grids*/
+.grid {
+    display: flex;
+    gap:24px;
+    flex-direction: row;
+    }
+
+/* CSS grids column widths */
+.grid-col-third {
+    flex-basis: 33.33%;
+    }
+    .grid-col-twoThirds {
+    flex-basis: 66.66%;
+    }
+    
