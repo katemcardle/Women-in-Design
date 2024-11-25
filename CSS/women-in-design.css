@@ -89,14 +89,14 @@ a:hover {
 a:visited {
     color:#6935d2;
 }
-/*Images*/
+/* images*/
 img {
     max-width: 1020px;
     width:100%;
     height:auto;
     border:1px solid #101010;
     margin-bottom: 2rem;
-}
+    }
 /*Blockquotes*/
 figure.quote {
     border-left: 8px solid #D8415C;
