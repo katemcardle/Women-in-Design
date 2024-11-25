@@ -167,6 +167,9 @@ header p.logo{
     }
     }
     @media only screen and (max-width: 768px) {
+    .grid{
+        flex-direction: column;
+    }
     }
     @media only screen and (max-width: 600px) {
     .container {
